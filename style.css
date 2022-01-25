@@ -1,7 +1,7 @@
 .header {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    flex-direction: column;
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
@@ -15,12 +15,19 @@
     font-size: 24px;
     color: #F9FAF8;
 }
+.top{
+    display: flex;
+    justify-content: space-between;
+}
 img {
     max-width: 300px;
 }
 
 ul{
     list-style-type: none;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
@@ -33,4 +40,8 @@ button {
     background-color: #3882f6;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+* {
+    border: 1px solid red;
 }
