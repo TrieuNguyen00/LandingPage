@@ -38,6 +38,11 @@ body {
     gap:8px;
 
 }
+.info {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     max-width: 50%;
 }
@@ -61,4 +66,8 @@ button {
     color: #e5e7eb;
     align-self: flex-start;
     border-radius: 10px;
+}
+
+*{
+    border:solid red 1px;
 }
