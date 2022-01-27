@@ -41,17 +41,26 @@ body {
 .info {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.info img{
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
 img {
     max-width: 50%;
+    height:auto;
 }
 
 ul{
     list-style-type: none;
     padding: 4px;
+    gap: 8px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
 }
 
 a {
@@ -69,5 +78,6 @@ button {
 }
 
 *{
-    border:solid red 1px;
+    border: 1px solid red;
+    
 }
